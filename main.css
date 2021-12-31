@@ -55,18 +55,19 @@ li {
 }
 .textpop{
     position: relative;
-    background-color: rgba(255,  255, 255, 0.5) ;
-    padding: 0.1em ;
+    background-color: rgba(255,  255, 255, 0.2) ;
     margin-right: 35%;
     margin-left: 35%;
     top: 250px;
     left: 150px;
 }
 #text1pop{
+    position:relative;
+    top:60px ;
     font-size:400% ;
-
 }
-#text2pop{
+#text3pop{
+    padding-bottom: 5%;
 }
 
 .header{
