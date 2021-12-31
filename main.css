@@ -1,5 +1,80 @@
-.menu{
-    display:flex ;
-    flex-direction: row;
+html, body, #page {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
 
+.menu{
+    display:fixed;
+}
+
+.background{
+    background:url("./img/background1.jfif")no-repeat center fixed ;
+    background-size:cover ;
+    height: 100% ;
+}
+
+ul {
+    display:flex ;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom:2% ;
+    padding-top:2%;
+    padding-right: 10%;
+    list-style-type: none;
+    align-items: center;
+    text-shadow: 1px 0px 1px;
+    margin: 0;
+}
+li {
+    font-size:250%;
+    text-decoration: none;
+}
+.imgnamiicone{
+    height: 10%;
+    width: 10%;
+    border-radius: 100px;
+}
+.emptyborder{
+    background-color: rgb(73, 35, 35);
+    padding-top: 10%;
+    padding-bottom:10%;
+    z-index: 100;
+    opacity: 1;
+}
+.imgnamigrass{
+    text-align: center;
+    background:url("./img/20201118_112831.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding-top: 20%;
+    padding-bottom: 20% ;
+}
+.textpop{
+    position: relative;
+    background-color: rgba(255,  255, 255, 0.5) ;
+    padding: 0.1em ;
+    margin-right: 35%;
+    margin-left: 35%;
+    top: 250px;
+    left: 150px;
+}
+#text1pop{
+    font-size:400% ;
+
+}
+#text2pop{
+}
+
+.header{
+    margin:25%
+}
+.contain{
+    margin:25%
+}
+.footer{
+    margin:25%
 }
