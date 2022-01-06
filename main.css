@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"Kazimir Bold";
+    src: url("/fontfamily/Kazimir\ Bold.otf")format("Kazimir Bold");
+  }
+
 html, body, #page {
     height:100%;
     width:100%;
@@ -15,7 +20,7 @@ html, body, #page {
     height: 100% ;
 }
 
-ul {
+.menuul {
     display:flex ;
     flex-direction:row;
     justify-content: space-between;
@@ -26,11 +31,13 @@ ul {
     list-style-type: none;
     align-items: center;
     text-shadow: 1px 0px 1px;
-    margin: 0;
+    margin:0
 }
-li {
+.menuli {
     font-size:250%;
     text-decoration: none;
+    margin-left:8px;
+    margin-right:8px;
 }
 .imgnamiicone{
     height: 10%;
@@ -46,42 +53,57 @@ li {
 }
 .imgnamigrass{
     text-align: center;
-    background:url("./img/20201118_112831.jpg") ;
+    background:url("./img/imggrassnami.png") ;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
+    height:100%;
     padding-top: 20%;
     padding-bottom: 20% ;
 }
-.textpop{
-    position: relative;
-    background-color: rgba(255,  255, 255, 0.2) ;
-    margin-right: 35%;
-    margin-left: 35%;
-    top: 250px;
-    left: 150px;
-}
-#text1pop{
-    position:relative;
-    top:60px ;
-    font-size:400% ;
-    font-family:"Kazimir Bold","serif";
-}
-#text3pop{
-    padding-bottom: 5%;
-}
 
 .header{
-    margin:25%
+    display:flex;
+    justify-content: space-between;
+    margin-top:3%
 }
 .contain{
-    margin:25%
+    
 }
 .footer{
-    margin:25%
+   
 }
 
-@font-face {
-    font-family:"Kazimir Bold";
-    src: url("/fontfamily/Kazimir\ Bold.otf")format("Kazimir Bold");
-  }
+.imagepeluche {
+    border-radius: 3%;
+}
+.presentation{
+   width: 50%;
+}
+.textpop{
+    background-color: white;
+    width: 50%;
+}
+.textpop1{
+    font-size:70% ;
+    text-align:center
+}
+.textpop2{
+    display: flex;
+    font-size:60% ;
+    justify-content:column
+}
+.textpop3{
+    display: flex;
+    font-size:60% ;
+    justify-content:column
+}
+.titlepresentation{
+    margin-bottom:5%;
+    text-align:center ;
+    background-color: rgba(71, 32, 32, 0.616) ;
+    font-size:160% ;
+    width: 50%;
+    height: 8%;
+    border-radius: 11%;
+}
