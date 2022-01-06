@@ -65,6 +65,7 @@ li {
     position:relative;
     top:60px ;
     font-size:400% ;
+    font-family:"Kazimir Bold","serif";
 }
 #text3pop{
     padding-bottom: 5%;
@@ -79,3 +80,8 @@ li {
 .footer{
     margin:25%
 }
+
+@font-face {
+    font-family:"Kazimir Bold";
+    src: url("/fontfamily/Kazimir\ Bold.otf")format("Kazimir Bold");
+  }
