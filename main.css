@@ -67,27 +67,28 @@ body{
 .textpop{
     background-color: white;
     width: 22vw;
-    font-size: 26px;
     text-align: center;
-    border-radius: 3%;
+    border-bottom-left-radius: 3% ;
+    border-bottom-right-radius: 3% ;
     padding-bottom: 1vh;
 }
 .textpop1{
     padding: 3%;
-    font-size: 35px;
+    font-size: 1.2vw;
     text-align:center;
     font-family:"Kazimir Bold";
     border-radius: 3%;
+    padding-top: 1.6vw;
 }
 .textpop2{
     display: flex;
-    font-size: 34PX;
+    font-size: 1.1vw;
     flex-direction: column;
     border-radius: 3%;
 }
 .textpop3{
     display: flex;
-    font-size: 34px;
+    font-size: 1.1vw;
     flex-direction: column;
     border-radius: 3%;
 }
@@ -95,7 +96,7 @@ body{
     margin-bottom: 5%;
     text-align: center;
     background-color: rgba(71, 32, 32, 0.616);
-    font-size: 38px;
+    font-size: 1.7vw;
     width: 22vw;
     color: white;
     border-radius: 3%;
@@ -134,12 +135,12 @@ li.blackheart:before{
 
 
 .title{
-    font-size: 30px;
+    font-size: 1.5vw;
     text-align: center;
     padding-top:3%
 }
 .title1{
-    font-size: 45px;
+    font-size: 2vw;
     text-align: center;
 }
 .dash{

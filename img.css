@@ -44,7 +44,8 @@
 }
 .presentationimg{
     width: 22vW;
-    border-radius: 3%;
+    border-top-left-radius: 3% ;
+    border-top-right-radius: 3% ;
  }
 
 .redheart{
@@ -80,4 +81,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.dash{
+    font-size: 1.5vw;
+    margin: 0;
 }
