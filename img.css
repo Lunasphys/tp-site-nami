@@ -2,7 +2,6 @@
     width: 40.5vw;
     padding-bottom: 2%;
     border-radius: 3%;
-
 }
 #img61{
     width: 13vw;
@@ -38,6 +37,11 @@
     width: 13vw;
     margin-right: 2%;
 }
+#img105{
+    width: 40.5vw;
+    padding-bottom: 2%;
+    border-radius: 3%;
+}
 .presentationimg{
     width: 22vW;
     border-radius: 3%;
@@ -54,7 +58,7 @@
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
 	list-style-image : url(img/nami_Page_055.jpg);
-    width: 18vw;
+    width: 17w;
 }
 
 .img3{
