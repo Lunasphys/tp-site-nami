@@ -63,9 +63,9 @@ html, body, #page {
 }
 
 .header{
-    display:flex;
+    display:flex ;  
     justify-content: space-between;
-    margin-top:3%
+    margin-top:3% ;
 }
 .contain{
     
@@ -90,12 +90,12 @@ html, body, #page {
 }
 .textpop2{
     display: flex;
-    font-size:60% ;
+    font-size:30% ;
     justify-content:column
 }
 .textpop3{
     display: flex;
-    font-size:60% ;
+    font-size:30% ;
     justify-content:column
 }
 .titlepresentation{
