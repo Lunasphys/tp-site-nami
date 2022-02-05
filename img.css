@@ -1,0 +1,79 @@
+#img38{
+    width: 40.5vw;
+    padding-bottom: 2%;
+    border-radius: 3%;
+
+}
+#img61{
+    width: 13vw;
+    margin-right: 2%;
+    border-radius: 3%;
+
+}
+#img62{
+    width: 13vw;
+    margin-right: 2%;
+    border-radius: 3%;
+
+}
+#img63{
+    width: 13vw;
+    border-radius: 3%;
+ 
+}
+#img78{
+    width: 40.5vw;
+    padding-bottom: 2%;
+    border-radius: 3%;
+}
+#img89{
+    width: 13vw;
+    margin-right: 2%;
+}
+#img88{
+    width: 13vw;
+    margin-right: 2%;
+}
+#img90{
+    width: 13vw;
+    margin-right: 2%;
+}
+.presentationimg{
+    width: 22vW;
+    border-radius: 3%;
+ }
+
+.redheart{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+	list-style-image : url(img/nami_Page_051.jpg);
+    width: 17vw;
+}
+
+.blackheart{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+	list-style-image : url(img/nami_Page_055.jpg);
+    width: 18vw;
+}
+
+.img3{
+    display: flex;
+}
+
+.grpimg2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.img4{
+    display: flex;
+}
+
+.grpimg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

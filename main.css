@@ -1,22 +1,25 @@
 @font-face {
     font-family:"Kazimir Bold";
-    src: url("/fontfamily/Kazimir\ Bold.otf")format("Kazimir Bold");
-  }
+    src: url("fontfamily/KazimirLightItalic.otf");
+}
 
-html, body, #page {
+body, #page {
     height:100%;
     width:100%;
     margin:0;
     padding:0;
 }
 
+body{
+    font-family:"Kazimir Bold";
+}
+
 .menu{
-    display:fixed;
+    width: 100vw;
 }
 
 .background{
-    background:url("./img/background1.jfif")no-repeat center fixed ;
-    background-size:cover ;
+    background:url("./img/background1.jfif")center fixed ;
     height: 100% ;
 }
 
@@ -27,83 +30,117 @@ html, body, #page {
     background-color: white;
     padding-bottom:2% ;
     padding-top:2%;
-    padding-right: 10%;
+    padding-right: 5%;
     list-style-type: none;
     align-items: center;
     text-shadow: 1px 0px 1px;
-    margin:0
+    margin:0 ;
 }
 .menuli {
-    font-size:250%;
+    font-size:2vw;
     text-decoration: none;
-    margin-left:8px;
-    margin-right:8px;
 }
 .imgnamiicone{
     height: 10%;
     width: 10%;
-    border-radius: 100px;
+    border-radius: 50%;
 }
-.emptyborder{
-    background-color: rgba(189, 195, 199,1);
-    padding-top: 10%;
-    padding-bottom:10%;
-    z-index: 100;
-    opacity: 1;
-}
+
 .imgnamigrass{
-    text-align: center;
-    background:url("./img/imggrassnami.png") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    height:100%;
-    padding-top: 20%;
-    padding-bottom: 20% ;
+   width: 100vw;
+   justify-content: center;
+
 }
 
 .header{
     display:flex ;  
     justify-content: space-between;
-    margin-top:3% ;
-}
-.contain{
-    
-}
-.footer{
-   
+    flex-direction: column;
 }
 
 .imagepeluche {
     border-radius: 3%;
+    width: 40.5vw;
+    border: 1px solid;
 }
-.presentation{
-   width: 50%;
-}
+
 .textpop{
     background-color: white;
-    width: 50%;
+    width: 22vw;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 3%;
 }
 .textpop1{
-    font-size:70% ;
-    text-align:center
+    padding: 3%;
+    font-size: 35px;
+    text-align:center;
+    font-family:"Kazimir Bold";
+    border-radius: 3%;
 }
 .textpop2{
     display: flex;
-    font-size:30% ;
-    justify-content:column
+    font-size: 34PX;
+    flex-direction: column;
+    border-radius: 3%;
 }
 .textpop3{
     display: flex;
-    font-size:30% ;
-    justify-content:column
+    font-size: 34px;
+    flex-direction: column;
+    border-radius: 3%;
 }
 .titlepresentation{
-    margin-bottom:5%;
-    text-align:center ;
-    background-color: rgba(71, 32, 32, 0.616) ;
-    font-size:160% ;
-    width: 50%;
-    height: 8%;
-    border-radius: 11%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: rgba(71, 32, 32, 0.616);
+    font-size: 38px;
+    width: 22vw;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.triplecontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstcolumn{
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right:5%
+}
+.contain{
+    display: flex ;
+}
+.secondcolumn{
+    margin-top: 4%;
+    margin-left: 12%;
+}
+
+li.blackheart:before{
+    font-size:100px; 
+    list-style-type : none   ;
+}
+
+.pres{
+    border-radius: 3%;
+    border-bottom:1px solid grey;
+    border-right:1px solid grey;
+    border-left:1px solid grey;
+}
+
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-top:3%
+}
+.title1{
+    font-size: 45px;
+    text-align: center;
+}
+.dash{
+    text-align: center;
 }
