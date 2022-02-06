@@ -227,3 +227,8 @@ li.blackheart:before{
     text-align: center;
     margin-top: 0.4vw;
 }
+
+.presentation{
+    text-decoration: none;
+    color: black;
+}
