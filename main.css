@@ -1,0 +1,201 @@
+@font-face {
+    font-family:"Kazimir Bold";
+    src: url("fontfamily/KazimirLightItalic.otf");
+}
+
+body, #page {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"Kazimir Bold";
+}
+
+.menu{
+    width: 100vw;
+}
+
+.background{
+    background:url("./img/background1.jfif")center fixed ;
+    height: 100% ;
+}
+
+.menuul {
+    display:flex ;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom:2% ;
+    padding-top:2%;
+    padding-right: 5%;
+    list-style-type: none;
+    align-items: center;
+    text-shadow: 1px 0px 1px;
+    margin:0 ;
+}
+.menuli {
+    font-size:2vw;
+    text-decoration: none;
+}
+.imgnamiicone{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.imgnamigrass{
+   width: 100vw;
+   justify-content: center;
+
+}
+
+.header{
+    display:flex ;  
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.imagepeluche {
+    border-radius: 3%;
+    width: 40.5vw;
+    border: 1px solid;
+}
+
+.textpop{
+    background-color: white;
+    width: 22vw;
+    text-align: center;
+    border-bottom-left-radius: 3% ;
+    border-bottom-right-radius: 3% ;
+    padding-bottom: 1vh;
+}
+.textpop1{
+    padding: 3%;
+    font-size: 1vw;
+    text-align:center;
+    font-family:"Kazimir Bold";
+    border-radius: 3%;
+    padding-top: 1.6vw;
+}
+.textpop2{
+    display: flex;
+    font-size: 1vw;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.textpop3{
+    display: flex;
+    font-size: 1vw;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.titlepresentation{
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #cd853f;
+    font-size: 1.7vw;
+    width: 22vw;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.triplecontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstcolumn{
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right:5%
+}
+.contain{
+    display: flex ;
+}
+.secondcolumn{
+    margin-top: 4%;
+    margin-left: 12%;
+}
+
+li.blackheart:before{
+    font-size:100px; 
+    list-style-type : none   ;
+}
+
+.pres{
+    border-radius: 3%;
+    border-bottom:1px solid grey;
+    border-right:1px solid grey;
+    border-left:1px solid grey;
+}
+
+
+.title{
+    font-size: 1vw;
+    text-align: center;
+    padding-top:3%
+}
+.title1{
+    font-size: 1.5vw;
+    text-align: center;
+}
+.dash{
+    text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    margin: 0;
+}
+.dash1{
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+    
+}
+.dash2{
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+    padding-bottom: 1vw ;
+}
+
+.titleHatchiko{
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:#cd853f;
+    font-size: 1.7vw;
+    width: 22vw;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.contentHatchiko{
+    display:flex;
+    flex-direction: row;
+}
+
+.imgHatchiko{
+    width: 40%;
+}
+
+.Hatchiko{
+    margin-top:25%;
+    width: 100%;
+}
+
+.imgandtext{
+    width: 100%;
+    background-color:white;
+    border-top-right-radius: 3% ;
+    border-bottom-right-radius: 3% ;
+}
+
+.popcorn{
+    width: 40%;
+}
