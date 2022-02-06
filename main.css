@@ -74,7 +74,7 @@ body{
 }
 .textpop1{
     padding: 3%;
-    font-size: 1.2vw;
+    font-size: 1vw;
     text-align:center;
     font-family:"Kazimir Bold";
     border-radius: 3%;
@@ -82,20 +82,20 @@ body{
 }
 .textpop2{
     display: flex;
-    font-size: 1.1vw;
+    font-size: 1vw;
     flex-direction: column;
     border-radius: 3%;
 }
 .textpop3{
     display: flex;
-    font-size: 1.1vw;
+    font-size: 1vw;
     flex-direction: column;
     border-radius: 3%;
 }
 .titlepresentation{
     margin-bottom: 5%;
     text-align: center;
-    background-color: rgba(71, 32, 32, 0.616);
+    background-color: #cd853f;
     font-size: 1.7vw;
     width: 22vw;
     color: white;
@@ -135,14 +135,67 @@ li.blackheart:before{
 
 
 .title{
-    font-size: 1.5vw;
+    font-size: 1vw;
     text-align: center;
     padding-top:3%
 }
 .title1{
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 .dash{
     text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    margin: 0;
+}
+.dash1{
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+    
+}
+.dash2{
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+    padding-bottom: 1vw ;
+}
+
+.titleHatchiko{
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:#cd853f;
+    font-size: 1.7vw;
+    width: 22vw;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.contentHatchiko{
+    display:flex;
+    flex-direction: row;
+}
+
+.imgHatchiko{
+    width: 40%;
+}
+
+.Hatchiko{
+    margin-top:25%;
+    width: 100%;
+}
+
+.imgandtext{
+    width: 100%;
+    background-color:white;
+    border-top-right-radius: 3% ;
+    border-bottom-right-radius: 3% ;
+}
+
+.popcorn{
+    width: 40%;
 }
