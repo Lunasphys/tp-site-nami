@@ -28,9 +28,9 @@ body{
     flex-direction:row;
     justify-content: space-between;
     background-color: white;
-    padding-bottom:2% ;
-    padding-top:2%;
-    padding-right: 5%;
+    padding-bottom:1% ;
+    padding-top:1%;
+    padding-right: 8%;
     list-style-type: none;
     align-items: center;
     text-shadow: 1px 0px 1px;
@@ -41,8 +41,8 @@ body{
     text-decoration: none;
 }
 .imgnamiicone{
-    height: 10%;
-    width: 10%;
+    height: 6%;
+    width: 9%;
     border-radius: 50%;
 }
 
@@ -110,15 +110,15 @@ body{
 
 .firstcolumn{
     margin-top: 4%;
-    margin-left: 10%;
-    margin-right:5%
+    margin-left: 13%;
+    margin-right:1%
 }
 .contain{
     display: flex ;
 }
 .secondcolumn{
     margin-top: 4%;
-    margin-left: 12%;
+    margin-left: 6%;
 }
 
 li.blackheart:before{
@@ -132,7 +132,6 @@ li.blackheart:before{
     border-right:1px solid grey;
     border-left:1px solid grey;
 }
-
 
 .title{
     font-size: 1vw;
@@ -177,25 +176,54 @@ li.blackheart:before{
 
 .contentHatchiko{
     display:flex;
-    flex-direction: row;
+    width: 22.2vw;
 }
 
 .imgHatchiko{
-    width: 40%;
+    width: 10vw;
 }
 
 .Hatchiko{
     margin-top:25%;
-    width: 100%;
+    width: 21vw;
 }
 
 .imgandtext{
-    width: 100%;
+    width: 14vw;
     background-color:white;
     border-top-right-radius: 3% ;
     border-bottom-right-radius: 3% ;
 }
 
 .popcorn{
-    width: 40%;
+    width: 9vw;
+    padding-left: 1.3vw;
+}
+
+.firstText{
+    font-size: 0.98vw;
+    padding-left: 0.2vw;
+    text-decoration: underline;
+}
+
+.tomato{
+    font-size:1.2vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0.2vw;
+}
+
+.secoundtext{
+    text-align: center;
+    font-size: 0.9vw;
+}
+.thirdtext{
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+.underimg{
+    font-size :0.7vw;
+    text-align: center;
+    margin-top: 0.4vw;
 }
