@@ -49,3 +49,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.paraOn{
+    display:flex;
+    flex-direction: row;
+    font-size:1vw
+}
