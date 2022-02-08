@@ -1,0 +1,160 @@
+.tomatogrp{
+    display: flex;
+    justify-content: row;
+    padding-left: 0.5vw;
+}
+
+.fourthlign{
+    display: flex;
+    flex-direction: row;
+    height: 8vw;
+    justify-content: space-evenly;
+}
+
+.thirdlign{
+    display: flex;
+    flex-direction: row;
+    height: 8vw;
+    justify-content: space-evenly;
+}
+
+.secundlign{
+    display: flex;
+    flex-direction: row;
+    height: 8vw;
+    justify-content: space-evenly;
+}
+
+.firstlign{
+    display: flex;
+    flex-direction: row;
+    height: 8vw;
+    justify-content: space-evenly;
+}
+
+.imggrpnamiami{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 1.5vw;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.titlenami{
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:#cd853f;
+    font-size: 1.7vw;
+    width: 22vw;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid gray;
+}
+
+.namis_de_nami{
+    margin-top:10vw
+}
+
+.contentblackheart{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1vw;
+    padding-right: 6vw;
+    padding-left: 2.2vw;
+}
+
+.contentblackheart2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1vw;
+    padding-right: 6vw;
+}
+
+.redheart{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+    width: 17vw;
+    padding-top: 0.7vw;
+    text-align: start;  
+}
+.redheart1{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+    width: 17vw;
+    padding-top: 0.4vw;
+    text-align: start;
+}
+.redheart2{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+    width: 17w;
+    padding-top: 0.7vw;
+    text-align: start;
+}
+
+.redheartbis{
+    width: 2.6vw;
+    height: 2.6vw;
+}
+.redheartbis2{
+    width: 2.6vw;
+    height: 2.6vw;
+}
+.redheartbis3{
+    padding-left: 1.5vw;
+    width: 2.6vw;
+    height: 2.6vw;
+}
+.contentredheart{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.2vw;
+    padding-right: 5vw;
+    padding-left: 1.5vw;}
+.contentredheart2{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5vw;
+}
+
+.blackheart{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+    width: 17w;
+    text-align: start;
+}
+.blackheart2{
+    list-style-type : none   ;
+	/* Ci-dessous je mets en place une image */
+    width: 17w;
+    padding-left: 0.41vw;
+}
+
+.blackheartbis{
+    width: 1.3vw;
+    height: 1.3vw;
+    padding-right: 0.55vw;
+}
+.blackheartbis2{
+    width: 1.3vw;
+    height: 1.3vw;
+    padding-right: 0.5vw;
+}
+.blackheartbis3{
+    padding-left: 2.2vw;
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.grpimg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.grpimg2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

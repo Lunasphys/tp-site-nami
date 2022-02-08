@@ -19,7 +19,7 @@ body{
 }
 
 .background{
-    background:url("./img/background1.jfif")center fixed ;
+    background:url("../img/background1.jfif")center fixed ;
     height: 100% ;
 }
 
