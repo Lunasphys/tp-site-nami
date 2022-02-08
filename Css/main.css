@@ -18,6 +18,14 @@ body{
     width: 100vw;
 }
 
+.menuspef{
+    text-decoration: none;
+    color: black;
+}
+
+.menuspef:hover{
+    background-color: blue;
+}
 
 
 .menuul {
