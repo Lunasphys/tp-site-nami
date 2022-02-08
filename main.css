@@ -234,11 +234,11 @@ li.blackheart:before{
 }
 
 .prestitle{
-    margin-bottom: 5%;
+    margin-bottom: 1vw;
     text-align: center;
     background-color:#cd853f;
     font-size: 2.7vw;
-    width: 60vw;
+    width: 56vw;
     color: white;
     border-radius: 3%;
     border: 1px solid gray;
@@ -248,7 +248,7 @@ li.blackheart:before{
 
 .bigtxt{
     background-color: white;
-    width: 60vw;
+    width: 56vw;
     border-radius: 3%;
     border: 1px solid gray;
     overflow:auto;
@@ -257,13 +257,12 @@ li.blackheart:before{
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 0.8vw;
-    padding-bottom: 1.4vw;
 }
 
 .contentt{
     display: flex;
     justify-content: row;
-    margin-top: 9vw;
+    margin-top: 5vw
 }
 
 .secounddcolumn{
@@ -272,8 +271,7 @@ li.blackheart:before{
 }
 
 .firstcolumnn{
-    margin-left: 23vw;
-    border-radius: 3%;
-    border: 1px solid gray;
+    margin-left: 14vw;
     margin-right: 4vw;
 }
+
