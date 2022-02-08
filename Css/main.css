@@ -24,8 +24,16 @@ body{
 }
 
 .menuspef:hover{
-    background-color: blue;
+    color:orange;
+    font-size:2.6vw
 }
+
+.menuspefrn{
+    color:orange;
+    font-size:2.6vw;
+    text-decoration: none;
+}
+
 
 
 .menuul {
