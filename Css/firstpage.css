@@ -48,7 +48,7 @@
     font-size: 1.7vw;
     width: 22vw;
     color: white;
-    border-radius: 3%;
+    border-radius: 1vw;
     border: 1px solid gray;
 }
 
@@ -199,7 +199,7 @@
     font-size: 1.7vw;
     width: 22vw;
     color: white;
-    border-radius: 3%;
+    border-radius: 1vw;
     border: 1px solid gray;
 }
 
@@ -270,7 +270,7 @@ li.blackheart:before{
     font-size: 1.7vw;
     width: 22vw;
     color: white;
-    border-radius: 3%;
+    border-radius: 1vw;
     border: 1px solid gray;
 }
 

@@ -75,45 +75,4 @@ body{
 
 
 
-.prestitle{
-    margin-bottom: 1vw;
-    text-align: center;
-    background-color:#cd853f;
-    font-size: 2.7vw;
-    width: 56vw;
-    color: white;
-    border-radius: 3%;
-    border: 1px solid gray;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-
-.bigtxt{
-    background-color: white;
-    width: 56vw;
-    border-radius: 3%;
-    border: 1px solid gray;
-    overflow:auto;
-    font-size: 1vw;
-    line-height: 1.8vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 0.8vw;
-}
-
-.contentt{
-    display: flex;
-    justify-content: row;
-    margin-top: 5vw
-}
-
-.secounddcolumn{
-    display: flex;
-    flex-direction: column;
-}
-
-.firstcolumnn{
-    margin-left: 14vw;
-    margin-right: 4vw;
-}
 
