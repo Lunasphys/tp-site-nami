@@ -1,0 +1,51 @@
+.background{
+    background:url("../img/onlybackground.jpg")center fixed no-repeat;
+    background-size:cover ;
+    height: 100% ;
+}
+
+.contain{
+    display: flex;
+    flex-direction:row;
+    padding-left:4.5vw;
+    margin-top:5.2vw;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    z-index: 1;
+    background-color: black;
+    left:3vw;
+    width: 65vw;
+    height:8vw;
+    border-radius: 1vw;
+    justify-content: space-around;
+}
+
+.firstColumnFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.TextRedFooter{
+    color:rgba(255, 0, 0, 0.616);
+    font-size:2.4vw;
+    display: flex;
+}
+.TextWhiteFooter{
+    color:white;
+    font-size:1.5vw;
+    width:2vw;
+    display:flex
+}
+.secoundColumnFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdColumnFooter{
+    display: flex;
+    flex-direction: column;
+}

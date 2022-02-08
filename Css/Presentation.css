@@ -24,6 +24,11 @@
     padding-top: 0.8vw;
 }
 
+.background{
+    background:url("../img/background1.jfif")center fixed ;
+    height: 100% ;
+}
+
 .contentt{
     display: flex;
     justify-content: row;

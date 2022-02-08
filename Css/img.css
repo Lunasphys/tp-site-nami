@@ -48,6 +48,12 @@
     border-top-right-radius: 3% ;
  }
 
+ .imgOnlyNami{
+    width: 100vw;
+    justify-content: center;
+ 
+ }
+
 
 
 
@@ -158,3 +164,45 @@
     width: 16vw;
     border-radius:1vw
 }   
+
+.imgcontent{
+    width:15.5vw;
+    height:34vw
+}
+
+#namilock{
+    width:19.3vw;
+    padding-right:1.6vw
+}
+
+#backnami{
+    padding-right:1.6vw;
+    width:  16.6vw
+}
+
+#threesomenami{
+    padding-right:1.6vw
+}
+
+
+#namikaka{
+    padding-right:1.6vw;
+    width:16.3vw
+}
+
+
+#namicosplay{
+    width:  16.6vw
+}
+
+#earth{
+    width:2vw
+}
+
+#regle{
+    width:2vw
+}
+
+#letter{
+    width:2vw
+}
