@@ -55,18 +55,36 @@
     display: flex;
 }
 
+.imgnamigrass{
+    width: 100vw;
+    justify-content: center;
+ 
+ }
 
-
+.imagepeluche {
+    border-radius: 3%;
+    width: 40.5vw;
+    border: 1px solid;
+}
 
 .img4{
     display: flex;
 }
 
+.imgnamiicone{
+    height: 6%;
+    width: 9%;
+    border-radius: 50%;
+}
 
+.popcorn{
+    width: 9vw;
+    padding-left: 1.3vw;
+}
 
-
-
-
+.imgHatchiko{
+    width: 10vw;
+}
 
 
 
