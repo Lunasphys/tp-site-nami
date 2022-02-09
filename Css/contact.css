@@ -1,0 +1,40 @@
+.background{
+    background:url("../img/background1.jfif")center fixed ;
+    height: 160% ;
+    width: 100%
+}
+
+.letterForYou{
+    width: 48vw;
+    left: 14vw;
+    top: 18vw;
+    position: absolute;
+    margin-bottom:20vw
+}
+
+.LetterRight{
+    background-color:orange;
+    z-index: 1;
+    position: absolute;
+    left: 51vw;
+    border-radius:1vw
+}
+
+.inLetter{
+    display: flex;
+    flex-direction: column;
+    position:relative
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    position:relative
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    position:relative
+}
+

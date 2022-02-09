@@ -1,6 +1,10 @@
 @font-face {
-    font-family:"Kazimir Bold";
-    src: url("fontfamily/KazimirLightItalic.otf");
+    font-family:"KazimirBoldMenu";
+    src: url("../fontfamily/Kazimir.otf");
+}
+
+@font-face {
+    font-family:""
 }
 
 body, #page {
@@ -10,9 +14,6 @@ body, #page {
     padding:0;
 }
 
-body{
-    font-family:"Kazimir Bold";
-}
 
 .menu{
     width: 100vw;
@@ -21,6 +22,7 @@ body{
 .menuspef{
     text-decoration: none;
     color: black;
+    font-family:"KazimirBoldMenu"
 }
 
 .menuspef:hover{
@@ -32,6 +34,7 @@ body{
     color:orange;
     font-size:2.6vw;
     text-decoration: none;
+    letter-spacing:0.1vw
 }
 
 

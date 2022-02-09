@@ -1,3 +1,13 @@
+@font-face {
+    font-family:"KazimirBoldMenu";
+    src: url("../fontfamily/Kazimir.otf");
+}
+
+@font-face {
+    font-family:"KazimirBoldMenu";
+    src: url("../fontfamily/Kazimir.otf");
+}
+
 .background{
     background:url("../img/onlybackground.jpg")center fixed no-repeat;
     background-size:cover ;
@@ -110,12 +120,13 @@
 .paraOnTop1{
     display: flex;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     width: 15vw;
     margin: 0;
     letter-spacing: 0.04vw;
     height:3vw;
-    top:0.65vw
+    top:0.65vw;
+    font-family:"KazimirBoldMenu"
 }
 
 .paraOnBot1{
@@ -131,12 +142,13 @@
 .paraOnTop2{
     display: flex;
     position: relative;
-    font-size: 1.94vw;
+    font-size: 1.84vw;
     width: 14vw;
     margin: 0;
     letter-spacing: 0.04vw;
     height:3vw;
-    top:0.45vw
+    top:0.45vw;
+    font-family:"KazimirBoldMenu"
 }
 
 .paraOnBot2{
@@ -153,12 +165,13 @@
 .paraOnTop3{
     display: flex;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     width: 14vw;
     margin: 0;
     letter-spacing: 0.05vw;
     height:3vw;
-    top:0.65vw
+    top:0.65vw;
+    font-family:"KazimirBoldMenu"
 }
 
 .paraOnBot3{
