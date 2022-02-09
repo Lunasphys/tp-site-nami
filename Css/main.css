@@ -1,7 +1,8 @@
 @font-face {
-    font-family:"Kazimir Bold";
-    src: url("fontfamily/KazimirLightItalic.otf");
+    font-family:"KazimirBoldMenu";
+    src: url("../fontfamily/Kazimir.otf");
 }
+
 
 body, #page {
     height:100%;
@@ -10,33 +11,49 @@ body, #page {
     padding:0;
 }
 
-body{
-    font-family:"Kazimir Bold";
-}
 
 .menu{
-    width: 100vw;
+    width: 99vw;
 }
 
-.menuspef{
+.menuSpef{
     text-decoration: none;
     color: black;
+    font-family:"KazimirBoldMenu"
 }
 
-.menuspef:hover{
+.menuSpef:hover{
     color:orange;
     font-size:2.6vw
 }
 
-.menuspefrn{
+.menuSpefOnlyNami:hover{
+    color:#750D0D;
+    font-size:2.6vw
+}
+
+.menuSpefRn{
     color:orange;
     font-size:2.6vw;
     text-decoration: none;
+    letter-spacing:0.1vw
+}
+
+.menuSpefOnlyNami{
+    text-decoration: none;
+    color: black;
+    font-family:"KazimirBoldMenu"
+}
+
+.menuSpefOnlyNamiRn{
+    color:#750D0D;
+    font-size:2.6vw;
+    text-decoration: none;
+    letter-spacing:0.1vw
 }
 
 
-
-.menuul {
+.menuUl {
     display:flex ;
     flex-direction:row;
     justify-content: space-between;
@@ -49,17 +66,13 @@ body{
     text-shadow: 1px 0px 1px;
     margin:0 ;
 }
-.menuli {
+.menuLi {
     font-size:2vw;
     text-decoration: none;
 }
 
-
-
-
 .header{
     display:flex ;  
-    justify-content: space-between;
     flex-direction: column;
 }
 

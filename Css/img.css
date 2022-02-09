@@ -42,17 +42,17 @@
     padding-bottom: 2%;
     border-radius: 3%;
 }
-.presentationimg{
+.presentationImg{
     width: 22vW;
     border-top-left-radius: 3% ;
     border-top-right-radius: 3% ;
  }
 
- .imgOnlyNami{
+.imgOnlyNami{
     width: 100vw;
     justify-content: center;
  
- }
+}
 
 
 
@@ -61,13 +61,12 @@
     display: flex;
 }
 
-.imgnamigrass{
-    width: 100vw;
+.imgNamiGrass{
+    width: 99vw;
     justify-content: center;
- 
- }
+}
 
-.imagepeluche {
+.imagePeluche {
     border-radius: 3%;
     width: 40.5vw;
     border: 1px solid;
@@ -77,10 +76,9 @@
     display: flex;
 }
 
-.imgnamiicone{
-    height: 6%;
-    width: 9%;
-    border-radius: 50%;
+.imgNamiIcone{
+    height: 8vw;
+    width: 13vw;
 }
 
 .popcorn{
@@ -91,10 +89,6 @@
 .imgHatchiko{
     width: 10vw;
 }
-
-
-
-
 
 #img85{
     width: 5vw;
@@ -156,7 +150,7 @@
 }
 
 
-#imgtomato{
+#imgTomato{
     width: 2vw;
 }
 
@@ -165,33 +159,33 @@
     border-radius:1vw
 }   
 
-.imgcontent{
+.imgContent{
     width:15.5vw;
     height:34vw
 }
 
-#namilock{
+#namiLock{
     width:19.3vw;
     padding-right:1.6vw
 }
 
-#backnami{
+#backNami{
     padding-right:1.6vw;
     width:  16.6vw
 }
 
-#threesomenami{
+#threesomeNami{
     padding-right:1.6vw
 }
 
 
-#namikaka{
+#namiKaka{
     padding-right:1.6vw;
     width:16.3vw
 }
 
 
-#namicosplay{
+#namiCosplay{
     width:  16.6vw
 }
 
@@ -205,11 +199,12 @@
     width:2.4vw;
     height: 2.4vw;
     position: relative;
+    top:0.32vw
 }
 
 #letter{
     width: 2.4vw;
     height: 2.56vw;
     position: relative;
-    top:0.25vw
+    top:0.35vw
 }

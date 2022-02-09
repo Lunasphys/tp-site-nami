@@ -1,38 +1,49 @@
-.tomatogrp{
+@font-face {
+    font-family:"KazimirItalic";
+    src: url("../fontfamily/Kazimir\ Italic.otf");
+}
+
+@font-face {
+    font-family:"KazimirLightItalic";
+    src: url("../fontfamily/KazimirLightItalic.otf");
+}
+
+
+.tomatoGrp{
     display: flex;
     justify-content: row;
     padding-left: 0.5vw;
 }
 
-.fourthlign{
+.fourthLign{
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.thirdlign{
+.thirdLign{
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.secundlign{
+.secundLign{
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.firstlign{
+.firstLign{
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.imggrpnamiami{
+.imgGrpNamiAmi{
     display:flex;
     flex-direction: column;
     background-color: white;
@@ -41,22 +52,23 @@
     border: 1px solid gray;
 }
 
-.titlenami{
+.titleNami{
     margin-bottom: 5%;
     text-align: center;
-    background-color:#cd853f;
-    font-size: 1.7vw;
+    background-color:#C79A65;
+    font-size: 1.9vw;
+    height:2.8vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
 }
 
-.namis_de_nami{
+.namis_De_Nami{
     margin-top:10vw
 }
 
-.contentblackheart{
+.contentBlackHeart{
     display: flex;
     flex-direction: row;
     padding-bottom: 1vw;
@@ -64,28 +76,28 @@
     padding-left: 2.2vw;
 }
 
-.contentblackheart2{
+.contentBlackHeart2{
     display: flex;
     flex-direction: row;
     padding-bottom: 1vw;
     padding-right: 4vw;
 }
 
-.redheart{
+.redHeart{
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
     width: 17vw;
     padding-top: 0.7vw;
     text-align: start;  
 }
-.redheart1{
+.redHeart1{
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
     width: 17vw;
     padding-top: 0.4vw;
     text-align: start;
 }
-.redheart2{
+.redHeart2{
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
     width: 17w;
@@ -93,67 +105,67 @@
     text-align: start;
 }
 
-.redheartbis{
+.redHeartBis{
     width: 2.6vw;
     height: 2.6vw;
 }
-.redheartbis2{
+.redHeartBis2{
     width: 2.6vw;
     height: 2.6vw;
 }
-.redheartbis3{
+.redHeartBis3{
     padding-left: 1.5vw;
     width: 2.6vw;
     height: 2.6vw;
 }
-.contentredheart{
+.contentRedHeart{
     display: flex;
     flex-direction: row;
     padding-bottom: 0.2vw;
     padding-right: 5vw;
     padding-left: 1.5vw;}
-.contentredheart2{
+.contentRedHeart2{
     display: flex;
     flex-direction: row;
     padding-right: 5vw;
 }
 
-.blackheart{
+.blackHeart{
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
     width: 17w;
     text-align: start;
 }
-.blackheart2{
+.blackHeart2{
     list-style-type : none   ;
 	/* Ci-dessous je mets en place une image */
     width: 17w;
     padding-left: 0.41vw;
 }
 
-.blackheartbis{
+.blackHeartBis{
     width: 1.3vw;
     height: 1.3vw;
     padding-right: 0.55vw;
 }
-.blackheartbis2{
+.blackHeartBis2{
     width: 1.3vw;
     height: 1.3vw;
     padding-right: 0.5vw;
 }
-.blackheartbis3{
+.blackHeartBis3{
     padding-left: 2.2vw;
     width: 1.3vw;
     height: 1.3vw;
 }
 
-.grpimg1{
+.grpImg1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.grpimg2{
+.grpImg2{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -165,50 +177,53 @@
 }
 
 
-.textpop{
+.textPop{
     background-color: white;
     width: 22vw;
     border-bottom-left-radius: 3% ;
     border-bottom-right-radius: 3% ;
     padding-bottom: 1vh;
 }
-.textpop1{
+.textPop1{
     padding: 3%;
-    font-size: 1vw;
+    font-size: 1.05vw;
     text-align:center;
-    font-family:"Kazimir Bold";
+    font-family:"KazimirItalic";
     border-radius: 3%;
     padding-top: 1.6vw;
+    padding-left:1vw;
+    padding-right:1vw
 }
-.textpop2{
+.textPop2{
+    display: flex;
+    font-size: 0.98vw;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.textPop3{
     display: flex;
     font-size: 1vw;
     flex-direction: column;
     border-radius: 3%;
 }
-.textpop3{
-    display: flex;
-    font-size: 1vw;
-    flex-direction: column;
-    border-radius: 3%;
-}
-.titlepresentation{
+.titlePresentation{
     margin-bottom: 5%;
     text-align: center;
-    background-color: #cd853f;
-    font-size: 1.7vw;
+    background-color: #C79A65;
+    font-size: 1.9vw;
     width: 22vw;
+    height:2.8vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
 }
 
-.triplecontent{
+.tripleContent{
     display: flex;
     justify-content: space-evenly;
 }
 
-.firstcolumn{
+.firstColumn{
     margin-top: 4%;
     margin-left: 13%;
     margin-right:1%
@@ -216,12 +231,13 @@
 .contain{
     display: flex ;
 }
-.secondcolumn{
+.secondColumn{
     margin-top: 4%;
     margin-left: 6%;
+    font-family:"KazimirItalic";
 }
 
-li.blackheart:before{
+li.blackHeart:before{
     font-size:100px; 
     list-style-type : none   ;
 }
@@ -236,11 +252,13 @@ li.blackheart:before{
 .title{
     font-size: 1vw;
     text-align: center;
-    padding-top:3%
+    padding-top:3%;
+    font-family:"KazimirLightItalic"
 }
 .title1{
     font-size: 1.5vw;
     text-align: center;
+    font-family:"KazimirLightItalic"
 }
 .dash{
     text-align: center;
@@ -266,8 +284,9 @@ li.blackheart:before{
 .titleHatchiko{
     margin-bottom: 5%;
     text-align: center;
-    background-color:#cd853f;
+    background-color:#C79A65;
     font-size: 1.7vw;
+    height:2.6vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
@@ -284,7 +303,7 @@ li.blackheart:before{
     width: 21vw;
 }
 
-.imgandtext{
+.imgAndText{
     width: 14vw;
     background-color:white;
     border-top-right-radius: 3% ;
@@ -292,7 +311,7 @@ li.blackheart:before{
 }
 
 .firstText{
-    font-size: 0.85vw;
+    font-size: 0.93vw;
     padding-left: 0.2vw;
     text-decoration: underline;
 }
@@ -304,16 +323,16 @@ li.blackheart:before{
     padding-left: 0.2vw;
 }
 
-.secoundtext{
+.secoundText{
     text-align: center;
     font-size: 0.9vw;
 }
-.thirdtext{
+.thirdText{
     text-align: center;
     font-size: 0.9vw;
 }
 
-.underimg{
+.underImg{
     font-size :0.7vw;
     text-align: center;
     margin-top: 0.4vw;
