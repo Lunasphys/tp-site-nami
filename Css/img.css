@@ -77,10 +77,9 @@
     display: flex;
 }
 
-.imgnamiicone{
-    height: 6%;
-    width: 9%;
-    border-radius: 50%;
+.imgNamiIcone{
+    height: 8vw;
+    width: 13vw;
 }
 
 .popcorn{
