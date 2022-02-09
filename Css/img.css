@@ -1,66 +1,73 @@
-#img38{
+#img38 {
     width: 40.5vw;
     padding-bottom: 2%;
     border-radius: 3%;
 }
-#img61{
+
+#img61 {
     width: 13vw;
     margin-right: 2%;
     border-radius: 3%;
 
 }
-#img62{
+
+#img62 {
     width: 13vw;
     margin-right: 2%;
     border-radius: 3%;
 
 }
-#img63{
+
+#img63 {
     width: 13vw;
     border-radius: 3%;
- 
+
 }
-#img78{
+
+#img78 {
     width: 40.5vw;
     padding-bottom: 2%;
     border-radius: 3%;
 }
-#img89{
+
+#img89 {
     width: 13vw;
     margin-right: 2%;
 }
-#img88{
+
+#img88 {
     width: 13vw;
     margin-right: 2%;
 }
-#img90{
+
+#img90 {
     width: 13vw;
     margin-right: 2%;
 }
-#img105{
+
+#img105 {
     width: 40.5vw;
     padding-bottom: 2%;
     border-radius: 3%;
 }
-.presentationImg{
+
+.presentationImg {
     width: 22vW;
-    border-top-left-radius: 3% ;
-    border-top-right-radius: 3% ;
- }
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
 
-.imgOnlyNami{
+.imgOnlyNami {
     width: 99.14vw;
     justify-content: center;
 }
 
 
-
-
-.img3{
+.img3 {
     display: flex;
 }
 
-.imgNamiGrass{
+.imgNamiGrass {
     width: 99.12vw;
     justify-content: center;
 }
@@ -71,139 +78,136 @@
     border: 1px solid;
 }
 
-.img4{
+.img4 {
     display: flex;
 }
 
-.imgNamiIcone{
+.imgNamiIcone {
     height: 8vw;
     width: 13vw;
 }
 
-.popcorn{
+.popcorn {
     width: 9vw;
     padding-left: 1.3vw;
 }
 
-.imgHatchiko{
+.imgHatchiko {
     width: 10vw;
 }
 
-#img85{
+#img85 {
     width: 5vw;
 }
 
-#img86{
+#img86 {
     width: 5vw;
 }
 
-#img87{
-    width: 5vw;
-}
-
-
-
-#img97{
-    width: 5vw;
-}
-
-#img98{
-    width: 5vw;
-}
-
-#img96{
+#img87 {
     width: 5vw;
 }
 
 
-
-#img109{
+#img97 {
     width: 5vw;
 }
 
-#img110{
+#img98 {
+    width: 5vw;
+}
+
+#img96 {
+    width: 5vw;
+}
+
+
+#img109 {
+    width: 5vw;
+}
+
+#img110 {
     width: 5vw;
 
 }
 
-#img111{
+#img111 {
     width: 5vw;
 
 }
 
 
-
-#img116{
+#img116 {
     width: 5vw;
 
 }
 
-#img115{
+#img115 {
     width: 5vw;
- 
+
 }
 
-#img117{
+#img117 {
     width: 5vw;
- 
+
 }
 
 
-#imgTomato{
+#imgTomato {
     width: 2vw;
 }
 
-.winternami{
+.winternami {
     width: 16vw;
-    border-radius:1vw
-}   
-
-.imgContent{
-    width:15.5vw;
-    height:34vw
+    border-radius: 1vw
 }
 
-#namiLock{
-    width:19.3vw;
-    padding-right:1.6vw
+.imgContent {
+    width: 15.5vw;
+    height: 34vw
 }
 
-#backNami{
-    padding-right:1.6vw;
-    width:  16.6vw
+#namiLock {
+    width: 19.3vw;
+    padding-right: 1.6vw
 }
 
-#threesomeNami{
-    padding-right:1.6vw
+#backNami {
+    padding-right: 1.6vw;
+    width: 16.6vw
 }
 
-
-#namiKaka{
-    padding-right:1.6vw;
-    width:16.3vw
+#threesomeNami {
+    padding-right: 1.6vw
 }
 
 
-#namiCosplay{
-    width:  16.6vw
+#namiKaka {
+    padding-right: 1.6vw;
+    width: 16.3vw
 }
 
-#earth{
+
+#namiCosplay {
+    width: 16.6vw
+}
+
+#earth {
     width: 2vw;
     height: 2vw;
     position: relative;
 }
 
-#regle{
-    width:2.4vw;
+#regle {
+    width: 2.4vw;
     height: 2.4vw;
     position: relative;
-    top:0.32vw
+    top: 0.32vw
 }
 
-#letter{
+#letter {
     width: 2.4vw;
     height: 2.56vw;
     position: relative;
-    top:0.35vw
+    top: 0.35vw
 }

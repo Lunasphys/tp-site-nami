@@ -1,27 +1,27 @@
 @font-face {
-    font-family:"KazimirBoldMenu";
+    font-family: "KazimirBoldMenu";
     src: url("../fontfamily/Kazimir.otf");
 }
 
 @font-face {
-    font-family:"KievitPro";
+    font-family: "KievitPro";
     src: url("../fontfamily/KievitPro-Regular.ttf");
 }
 
-.background{
-    background:url("../img/onlybackground.jpg")center fixed no-repeat;
-    background-size:cover ;
-    height: 100% ;
+.background {
+    background: url("../img/onlybackground.jpg") center fixed no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
-.contain{
+.contain {
     display: flex;
-    flex-direction:row;
-    padding-left:4.5vw;
-    margin-top:5.2vw;
+    flex-direction: row;
+    padding-left: 4.5vw;
+    margin-top: 5.2vw;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -34,160 +34,162 @@
     top: 81vw;
 }
 
-.firstColumnFooter{
+.firstColumnFooter {
     display: flex;
     flex-direction: column;
-    position:relative;
-    left:2.4vw
+    position: relative;
+    left: 2.4vw
 }
 
-.secoundColumnFooter{
+.secoundColumnFooter {
     display: flex;
     flex-direction: column;
     width: 21vw;
-    position:relative;
-    left:7.4vw
+    position: relative;
+    left: 7.4vw
 }
 
-.thirdColumnFooter{
+.thirdColumnFooter {
     display: flex;
     flex-direction: column;
-    position:relative;
-    left:12vw
-}
-.TextRedFooter1{
-    color:rgba(182, 5, 5, 0.616);
-    font-size:3vw;
-    display: flex;
-    position:relative;
-    margin: 0;
-    width: 18vw;
-    left:3.5vw
+    position: relative;
+    left: 12vw
 }
 
-.TextRedFooter2{
-    color:rgba(182, 5, 5, 0.616);
-    font-size:3vw;
+.TextRedFooter1 {
+    color: rgba(182, 5, 5, 0.616);
+    font-size: 3vw;
     display: flex;
-    position:relative;
+    position: relative;
     margin: 0;
     width: 18vw;
-    left:4vw
+    left: 3.5vw
 }
 
-.TextRedFooter3{
-    color:rgba(182, 5, 5, 0.616);
-    font-size:3vw;
+.TextRedFooter2 {
+    color: rgba(182, 5, 5, 0.616);
+    font-size: 3vw;
     display: flex;
-    position:relative;
+    position: relative;
+    margin: 0;
+    width: 18vw;
+    left: 4vw
+}
+
+.TextRedFooter3 {
+    color: rgba(182, 5, 5, 0.616);
+    font-size: 3vw;
+    display: flex;
+    position: relative;
     margin: 0;
     width: 15vw;
-    left:2vw
+    left: 2vw
 }
-.TextWhiteFooter1{
+
+.TextWhiteFooter1 {
     color: white;
     font-size: 1.5vw;
     width: 16vw;
     display: flex;
     margin: 0;
     position: relative;
-    top:0.62vw;
-    left:1.6vw
+    top: 0.62vw;
+    left: 1.6vw
 }
 
-.TextWhiteFooter2{
+.TextWhiteFooter2 {
     color: white;
     font-size: 1.5vw;
     width: 21vw;
     display: flex;
     margin: 0;
-    position:relative;
-    top:0.15vw;
+    position: relative;
+    top: 0.15vw;
 }
 
-.TextWhiteFooter3{
+.TextWhiteFooter3 {
     color: white;
     font-size: 1.5vw;
     width: 16vw;
     display: flex;
     margin: 0;
-    position:relative;
-    left:4.5vw;
-    top:0.10vw
+    position: relative;
+    left: 4.5vw;
+    top: 0.10vw
 }
 
 
-.paraOnTop1{
+.paraOnTop1 {
     display: flex;
     position: relative;
     font-size: 1.7vw;
     width: 15vw;
     margin: 0;
     letter-spacing: 0.04vw;
-    height:3vw;
-    top:0.65vw;
-    font-family:"KazimirBoldMenu"
+    height: 3vw;
+    top: 0.65vw;
+    font-family: "KazimirBoldMenu"
 }
 
-.paraOnBot1{
+.paraOnBot1 {
     display: flex;
     font-size: 1.47vw;
     width: 14vw;
     margin: 0;
     position: relative;
-    left:1.12vw;
+    left: 1.12vw;
     letter-spacing: 0.05vw;
-    font-family:"KievitPro";
+    font-family: "KievitPro";
 
 }
 
-.paraOnTop2{
+.paraOnTop2 {
     display: flex;
     position: relative;
     font-size: 1.84vw;
     width: 14vw;
     margin: 0;
     letter-spacing: 0.04vw;
-    height:3vw;
-    top:0.45vw;
-    left:0.7vw;
-    font-family:"KazimirBoldMenu"
+    height: 3vw;
+    top: 0.45vw;
+    left: 0.7vw;
+    font-family: "KazimirBoldMenu"
 }
 
-.paraOnBot2{
+.paraOnBot2 {
     display: flex;
     font-size: 1.42vw;
     width: 21vw;
     margin: 0;
     position: relative;
-    top:0.6vw;
-    left:1vw;
+    top: 0.6vw;
+    left: 1vw;
     letter-spacing: 0.02vw;
-    font-family:"KievitPro";
+    font-family: "KievitPro";
 }
 
-.paraOnTop3{
+.paraOnTop3 {
     display: flex;
     position: relative;
     font-size: 1.7vw;
     width: 14vw;
     margin: 0;
     letter-spacing: 0.05vw;
-    height:3vw;
-    top:0.65vw;
-    font-family:"KazimirBoldMenu";
+    height: 3vw;
+    top: 0.65vw;
+    font-family: "KazimirBoldMenu";
 
 }
 
-.paraOnBot3{
+.paraOnBot3 {
     display: flex;
     font-size: 1.52vw;
     width: 14vw;
     margin: 0;
     position: relative;
-    top:0.7vw;
-    left:1vw;
+    top: 0.7vw;
+    left: 1vw;
     letter-spacing: 0.05vw;
-    font-family:"KievitPro";
+    font-family: "KievitPro";
 }
 

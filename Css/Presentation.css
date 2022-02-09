@@ -1,16 +1,16 @@
 @font-face {
-  font-family:"KazimirItalic";
-  src: url("../fontfamily/Kazimir\ Italic.otf");
+    font-family: "KazimirItalic";
+    src: url("../fontfamily/Kazimir\ Italic.otf");
 }
 
-body{
-  font-family:"KazimirItalic";
+body {
+    font-family: "KazimirItalic";
 }
 
-.prestitle{
+.prestitle {
     margin-bottom: 1vw;
     text-align: center;
-    background-color:#C79A65;
+    background-color: #C79A65;
     font-size: 2.7vw;
     width: 56vw;
     color: white;
@@ -20,13 +20,13 @@ body{
     padding-right: 2vw;
 }
 
-.bigtxt{
+.bigtxt {
     background-color: white;
     width: 56vw;
     height: 31vw;
     border-radius: 1vw;
     border: 1px solid gray;
-    overflow:auto;
+    overflow: auto;
     font-size: 1vw;
     line-height: 1.8vw;
     padding-left: 2vw;
@@ -34,24 +34,24 @@ body{
     padding-top: 0.8vw;
 }
 
-.background{
-    background:url("../img/background1.jfif")center fixed ;
-    height: 100% ;
+.background {
+    background: url("../img/background1.jfif") center fixed;
+    height: 100%;
 }
 
-.contentt{
+.contentt {
     display: flex;
     justify-content: row;
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
 
-.secounddcolumn{
+.secounddcolumn {
     display: flex;
     flex-direction: column;
 }
 
-.firstcolumnn{
+.firstcolumnn {
     margin-left: 14vw;
     margin-right: 4vw;
 }
@@ -66,26 +66,26 @@ body{
 
 * {
     box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
     position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+}
+
+/* Hide the images by default */
+.mySlides {
     display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
     cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -98,58 +98,58 @@ body{
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
+}
+
+/* Container for image text */
+.caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
-  }
-  
-  .row:after {
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
+}
+
+/* Six columns side by side */
+.column {
     float: left;
     width: 15%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
     opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-  }
+}
 
 div.mySlides {
     text-align: center;
@@ -162,6 +162,7 @@ div.row {
     background-color: #222;
     height: 37vh;
 }
+
 .pres1 {
     width: 60px
 }

@@ -1,78 +1,79 @@
 @font-face {
-    font-family:"KazimirBoldMenu";
+    font-family: "KazimirBoldMenu";
     src: url("../fontfamily/Kazimir.otf");
 }
 
 
 body, #page {
-    height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
-.menu{
+.menu {
     width: 99.14vw;
 }
 
-.menuSpef{
+.menuSpef {
     text-decoration: none;
     color: black;
-    font-family:"KazimirBoldMenu"
+    font-family: "KazimirBoldMenu"
 }
 
-.menuSpef:hover{
-    color:orange;
-    font-size:2.6vw
+.menuSpef:hover {
+    color: orange;
+    font-size: 2.6vw
 }
 
-.menuSpefOnlyNami:hover{
-    color:#750D0D;
-    font-size:2.6vw
+.menuSpefOnlyNami:hover {
+    color: #750D0D;
+    font-size: 2.6vw
 }
 
-.menuSpefRn{
-    color:orange;
-    font-size:2.6vw;
+.menuSpefRn {
+    color: orange;
+    font-size: 2.6vw;
     text-decoration: none;
-    letter-spacing:0.1vw
+    letter-spacing: 0.1vw
 }
 
-.menuSpefOnlyNami{
+.menuSpefOnlyNami {
     text-decoration: none;
     color: black;
-    font-family:"KazimirBoldMenu"
+    font-family: "KazimirBoldMenu"
 }
 
-.menuSpefOnlyNamiRn{
-    color:#750D0D;
-    font-size:2.6vw;
+.menuSpefOnlyNamiRn {
+    color: #750D0D;
+    font-size: 2.6vw;
     text-decoration: none;
-    letter-spacing:0.1vw
+    letter-spacing: 0.1vw
 }
 
 
 .menuUl {
-    display:flex ;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    padding-bottom:1% ;
-    padding-top:1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
     padding-right: 8%;
     list-style-type: none;
     align-items: center;
     text-shadow: 1px 0px 1px;
-    margin:0 ;
+    margin: 0;
 }
+
 .menuLi {
-    font-size:2vw;
+    font-size: 2vw;
     text-decoration: none;
 }
 
-.header{
-    display:flex ;  
+.header {
+    display: flex;
     flex-direction: column;
 }
 

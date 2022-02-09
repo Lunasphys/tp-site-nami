@@ -1,97 +1,98 @@
 @font-face {
-    font-family:"KazimirBoldMenu";
+    font-family: "KazimirBoldMenu";
     src: url("../fontfamily/Kazimir.otf");
 }
 
 @font-face {
-    font-family:"KazimirMediumIt";
+    font-family: "KazimirMediumIt";
     src: url("../fontfamily/KazimirMediumItalic.otf");
 }
 
 
-.background{
-    background:url("../img/background1.jfif")center fixed ;
-    height: 100% ;
+.background {
+    background: url("../img/background1.jfif") center fixed;
+    height: 100%;
     width: 100%
 }
 
-.letterForYou{
+.letterForYou {
     width: 48vw;
     left: 14vw;
     top: 18vw;
     position: absolute;
-    padding-bottom:8vw
+    padding-bottom: 8vw
 }
 
-.LetterRight{
-    background-color:#FF8500;
+.LetterRight {
+    background-color: #FF8500;
     width: 30vw;
     height: 16vw;
     z-index: 1;
     position: absolute;
     left: 53vw;
-    top:28vw;
-    border-radius:1vw;
+    top: 28vw;
+    border-radius: 1vw;
 }
 
-.inLetter{
+.inLetter {
     display: flex;
     flex-direction: column;
-    position:relative
+    position: relative
 }
 
-.mail{
+.mail {
     display: flex;
     flex-direction: row;
-    position:relative;
-    font-family:"KazimirBoldMenu";
-    top:3vw;
-    left:2vw
+    position: relative;
+    font-family: "KazimirBoldMenu";
+    top: 3vw;
+    left: 2vw
 }
 
-.post{
+.post {
     display: flex;
     flex-direction: row;
-    position:relative;
-    font-family:"KazimirBoldMenu";
-    top:4vw;
-    left:2vw
+    position: relative;
+    font-family: "KazimirBoldMenu";
+    top: 4vw;
+    left: 2vw
 }
 
-.textMail{
-    font-family:"KazimirMediumIt";
-    position:relative;
-    top:1.4vw;
-    left:1.9vw
-}
-.paraCont1{
-    position:relative;
-    left:3.2vw
+.textMail {
+    font-family: "KazimirMediumIt";
+    position: relative;
+    top: 1.4vw;
+    left: 1.9vw
 }
 
-.paraCont2{
-    position:relative;
-    left:2.2vw
+.paraCont1 {
+    position: relative;
+    left: 3.2vw
+}
+
+.paraCont2 {
+    position: relative;
+    left: 2.2vw
 }
 
 
-@media (max-width: 820px) { 
+@media (max-width: 820px) {
 
-    .letterForYou{
+    .letterForYou {
         width: 67vw;
         left: 14vw;
         top: 45vw;
         position: absolute;
         padding-bottom: 8vw;
     }
-    
-    .LetterRight{
+
+    .LetterRight {
         background-color: #FF8500;
         width: 61vw;
         height: 33vw;
         z-index: 1;
         position: absolute;
-        left:17vw;
+        left: 17vw;
         top: 80vw;
         border-radius: 1vw;
     }

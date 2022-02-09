@@ -1,50 +1,50 @@
 @font-face {
-    font-family:"KazimirItalic";
+    font-family: "KazimirItalic";
     src: url("../fontfamily/Kazimir\ Italic.otf");
 }
 
 @font-face {
-    font-family:"KazimirLightItalic";
+    font-family: "KazimirLightItalic";
     src: url("../fontfamily/KazimirLightItalic.otf");
 }
 
 
-.tomatoGrp{
+.tomatoGrp {
     display: flex;
     justify-content: row;
     padding-left: 0.5vw;
 }
 
-.fourthLign{
+.fourthLign {
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.thirdLign{
+.thirdLign {
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.secundLign{
+.secundLign {
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.firstLign{
+.firstLign {
     display: flex;
     flex-direction: row;
     height: 8vw;
     justify-content: space-evenly;
 }
 
-.imgGrpNamiAmi{
-    display:flex;
+.imgGrpNamiAmi {
+    display: flex;
     flex-direction: column;
     background-color: white;
     padding-top: 1.5vw;
@@ -52,23 +52,23 @@
     border: 1px solid gray;
 }
 
-.titleNami{
+.titleNami {
     margin-bottom: 5%;
     text-align: center;
-    background-color:#C79A65;
+    background-color: #C79A65;
     font-size: 1.9vw;
-    height:2.8vw;
+    height: 2.8vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
 }
 
-.namis_De_Nami{
-    margin-top:10vw
+.namis_De_Nami {
+    margin-top: 10vw
 }
 
-.contentBlackHeart{
+.contentBlackHeart {
     display: flex;
     flex-direction: row;
     padding-bottom: 1vw;
@@ -76,264 +76,285 @@
     padding-left: 2.2vw;
 }
 
-.contentBlackHeart2{
+.contentBlackHeart2 {
     display: flex;
     flex-direction: row;
     padding-bottom: 1vw;
     padding-right: 4vw;
 }
 
-.redHeart{
-    list-style-type : none   ;
-	/* Ci-dessous je mets en place une image */
+.redHeart {
+    list-style-type: none;
+    /* Ci-dessous je mets en place une image */
     width: 17vw;
     padding-top: 0.7vw;
-    text-align: start;  
+    text-align: start;
 }
-.redHeart1{
-    list-style-type : none   ;
-	/* Ci-dessous je mets en place une image */
+
+.redHeart1 {
+    list-style-type: none;
+    /* Ci-dessous je mets en place une image */
     width: 17vw;
     padding-top: 0.4vw;
     text-align: start;
 }
-.redHeart2{
-    list-style-type : none   ;
-	/* Ci-dessous je mets en place une image */
-    width: 17w;
+
+.redHeart2 {
+    list-style-type: none;
+    /* Ci-dessous je mets en place une image */
+    width: 17 w;
     padding-top: 0.7vw;
     text-align: start;
 }
 
-.redHeartBis{
+.redHeartBis {
     width: 2.6vw;
     height: 2.6vw;
 }
-.redHeartBis2{
+
+.redHeartBis2 {
     width: 2.6vw;
     height: 2.6vw;
 }
-.redHeartBis3{
+
+.redHeartBis3 {
     padding-left: 1.5vw;
     width: 2.6vw;
     height: 2.6vw;
 }
-.contentRedHeart{
+
+.contentRedHeart {
     display: flex;
     flex-direction: row;
     padding-bottom: 0.2vw;
     padding-right: 5vw;
-    padding-left: 1.5vw;}
-.contentRedHeart2{
+    padding-left: 1.5vw;
+}
+
+.contentRedHeart2 {
     display: flex;
     flex-direction: row;
     padding-right: 5vw;
 }
 
-.blackHeart{
-    list-style-type : none   ;
-	/* Ci-dessous je mets en place une image */
-    width: 17w;
+.blackHeart {
+    list-style-type: none;
+    /* Ci-dessous je mets en place une image */
+    width: 17 w;
     text-align: start;
 }
-.blackHeart2{
-    list-style-type : none   ;
-	/* Ci-dessous je mets en place une image */
-    width: 17w;
+
+.blackHeart2 {
+    list-style-type: none;
+    /* Ci-dessous je mets en place une image */
+    width: 17 w;
     padding-left: 0.41vw;
 }
 
-.blackHeartBis{
+.blackHeartBis {
     width: 1.3vw;
     height: 1.3vw;
     padding-right: 0.55vw;
 }
-.blackHeartBis2{
+
+.blackHeartBis2 {
     width: 1.3vw;
     height: 1.3vw;
     padding-right: 0.5vw;
 }
-.blackHeartBis3{
+
+.blackHeartBis3 {
     padding-left: 2.2vw;
     width: 1.3vw;
     height: 1.3vw;
 }
 
-.grpImg1{
+.grpImg1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.grpImg2{
+.grpImg2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.background{
-    background:url("../img/background1.jfif")center fixed ;
-    height: 100% ;
+.background {
+    background: url("../img/background1.jfif") center fixed;
+    height: 100%;
 }
 
 
-.textPop{
+.textPop {
     background-color: white;
     width: 22vw;
-    border-bottom-left-radius: 3% ;
-    border-bottom-right-radius: 3% ;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
     padding-bottom: 1vh;
 }
-.textPop1{
+
+.textPop1 {
     padding: 3%;
     font-size: 1.05vw;
-    text-align:center;
-    font-family:"KazimirItalic";
+    text-align: center;
+    font-family: "KazimirItalic";
     border-radius: 3%;
     padding-top: 1.6vw;
-    padding-left:1vw;
-    padding-right:1vw
+    padding-left: 1vw;
+    padding-right: 1vw
 }
-.textPop2{
+
+.textPop2 {
     display: flex;
     font-size: 0.98vw;
     flex-direction: column;
     border-radius: 3%;
 }
-.textPop3{
+
+.textPop3 {
     display: flex;
     font-size: 1vw;
     flex-direction: column;
     border-radius: 3%;
 }
-.titlePresentation{
+
+.titlePresentation {
     margin-bottom: 5%;
     text-align: center;
     background-color: #C79A65;
     font-size: 1.9vw;
     width: 22vw;
-    height:2.8vw;
+    height: 2.8vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
 }
 
-.tripleContent{
+.tripleContent {
     display: flex;
     justify-content: space-evenly;
 }
 
-.firstColumn{
+.firstColumn {
     margin-top: 4%;
     margin-left: 13%;
-    margin-right:1%
+    margin-right: 1%
 }
-.contain{
-    display: flex ;
+
+.contain {
+    display: flex;
 }
-.secondColumn{
+
+.secondColumn {
     margin-top: 4%;
     margin-left: 6%;
-    font-family:"KazimirItalic";
+    font-family: "KazimirItalic";
 }
 
-li.blackHeart:before{
-    font-size:100px; 
-    list-style-type : none   ;
+li.blackHeart:before {
+    font-size: 100px;
+    list-style-type: none;
 }
 
-.pres{
+.pres {
     border-radius: 3%;
-    border-bottom:1px solid grey;
-    border-right:1px solid grey;
-    border-left:1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
 
-.title{
+.title {
     font-size: 1vw;
     text-align: center;
-    padding-top:3%;
-    font-family:"KazimirLightItalic"
-}
-.title1{
-    font-size: 1.5vw;
-    text-align: center;
-    font-family:"KazimirLightItalic"
-}
-.dash{
-    text-align: center;
-    color: black;
-    font-size: 1.5vw;
-    margin: 0;
-}
-.dash1{
-    text-align: center;
-    color: black;
-    font-size: 1vw;
-    margin: 0;
-    
-}
-.dash2{
-    text-align: center;
-    color: black;
-    font-size: 1vw;
-    margin: 0;
-    padding-bottom: 1vw ;
+    padding-top: 3%;
+    font-family: "KazimirLightItalic"
 }
 
-.titleHatchiko{
+.title1 {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "KazimirLightItalic"
+}
+
+.dash {
+    text-align: center;
+    color: black;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.dash1 {
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+
+}
+
+.dash2 {
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+    margin: 0;
+    padding-bottom: 1vw;
+}
+
+.titleHatchiko {
     margin-bottom: 5%;
     text-align: center;
-    background-color:#C79A65;
+    background-color: #C79A65;
     font-size: 1.7vw;
-    height:2.6vw;
+    height: 2.6vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
 }
 
-.contentHatchiko{
-    display:flex;
+.contentHatchiko {
+    display: flex;
     width: 22.2vw;
 }
 
-.Hatchiko{
-    margin-top:25%;
+.Hatchiko {
+    margin-top: 25%;
     width: 21vw;
 }
 
-.imgAndText{
+.imgAndText {
     width: 14vw;
-    background-color:white;
-    border-top-right-radius: 3% ;
-    border-bottom-right-radius: 3% ;
+    background-color: white;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
 
-.firstText{
+.firstText {
     font-size: 0.93vw;
     padding-left: 0.2vw;
     text-decoration: underline;
 }
 
-.tomato{
-    font-size:1.2vw;
+.tomato {
+    font-size: 1.2vw;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0.2vw;
 }
 
-.secoundText{
-    text-align: center;
-    font-size: 0.9vw;
-}
-.thirdText{
+.secoundText {
     text-align: center;
     font-size: 0.9vw;
 }
 
-.underImg{
-    font-size :0.7vw;
+.thirdText {
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+.underImg {
+    font-size: 0.7vw;
     text-align: center;
     margin-top: 0.4vw;
 }
