@@ -12,46 +12,163 @@
 }
 
 .footer{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    position:absolute;
+    position: absolute;
     z-index: 1;
     background-color: black;
-    left:3vw;
-    width: 65vw;
-    height:8vw;
+    left: 12vw;
+    width: 74vw;
+    height: 7vw;
     border-radius: 1vw;
-    justify-content: space-around;
+    top: 82vw;
 }
 
 .firstColumnFooter{
     display: flex;
     flex-direction: column;
+    position:relative;
+    left:2.4vw
 }
 
-.TextRedFooter{
-    color:rgba(255, 0, 0, 0.616);
-    font-size:2.4vw;
-    display: flex;
-}
-.TextWhiteFooter{
-    color:white;
-    font-size:1.5vw;
-    width:2vw;
-    display:flex
-}
 .secoundColumnFooter{
     display: flex;
     flex-direction: column;
+    width: 21vw;
+    position:relative;
+    left:7.4vw
 }
 
 .thirdColumnFooter{
     display: flex;
     flex-direction: column;
+    position:relative;
+    left:12vw
+}
+.TextRedFooter1{
+    color:rgba(182, 5, 5, 0.616);
+    font-size:3vw;
+    display: flex;
+    position:relative;
+    margin: 0;
+    width: 18vw;
+    left:3.5vw
 }
 
-.paraOn{
-    display:flex;
-    flex-direction: row;
-    font-size:1vw
+.TextRedFooter2{
+    color:rgba(182, 5, 5, 0.616);
+    font-size:3vw;
+    display: flex;
+    position:relative;
+    margin: 0;
+    width: 18vw;
+    left:4vw
 }
+
+.TextRedFooter3{
+    color:rgba(182, 5, 5, 0.616);
+    font-size:3vw;
+    display: flex;
+    position:relative;
+    margin: 0;
+    width: 15vw;
+    left:2vw
+}
+.TextWhiteFooter1{
+    color: white;
+    font-size: 1.5vw;
+    width: 16vw;
+    display: flex;
+    margin: 0;
+    position: relative;
+    top:0.62vw;
+    left:1.6vw
+}
+
+.TextWhiteFooter2{
+    color: white;
+    font-size: 1.5vw;
+    width: 21vw;
+    display: flex;
+    margin: 0;
+    position:relative;
+    top:0.15vw;
+}
+
+.TextWhiteFooter3{
+    color: white;
+    font-size: 1.5vw;
+    width: 16vw;
+    display: flex;
+    margin: 0;
+    position:relative;
+    left:4.5vw;
+    top:0.10vw
+}
+
+
+.paraOnTop1{
+    display: flex;
+    position: relative;
+    font-size: 1.8vw;
+    width: 15vw;
+    margin: 0;
+    letter-spacing: 0.04vw;
+    height:3vw;
+    top:0.65vw
+}
+
+.paraOnBot1{
+    display: flex;
+    font-size: 1.55vw;
+    width: 14vw;
+    margin: 0;
+    position: relative;
+    left:1.12vw;
+    letter-spacing: 0.05vw;
+}
+
+.paraOnTop2{
+    display: flex;
+    position: relative;
+    font-size: 1.94vw;
+    width: 14vw;
+    margin: 0;
+    letter-spacing: 0.04vw;
+    height:3vw;
+    top:0.45vw
+}
+
+.paraOnBot2{
+    display: flex;
+    font-size: 1.5vw;
+    width: 21vw;
+    margin: 0;
+    position: relative;
+    top:0.6vw;
+    left:1vw;
+    letter-spacing: 0.02vw;
+}
+
+.paraOnTop3{
+    display: flex;
+    position: relative;
+    font-size: 1.8vw;
+    width: 14vw;
+    margin: 0;
+    letter-spacing: 0.05vw;
+    height:3vw;
+    top:0.65vw
+}
+
+.paraOnBot3{
+    display: flex;
+    font-size: 1.6vw;
+    width: 14vw;
+    margin: 0;
+    position: relative;
+    top:0.7vw;
+    left:1vw;
+    letter-spacing: 0.05vw;
+}
+
