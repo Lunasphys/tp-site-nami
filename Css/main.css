@@ -13,7 +13,7 @@ body, #page {
 
 
 .menu{
-    width: 100vw;
+    width: 99vw;
 }
 
 .menuSpef{
@@ -71,10 +71,8 @@ body, #page {
     text-decoration: none;
 }
 
-
 .header{
     display:flex ;  
-    justify-content: space-between;
     flex-direction: column;
 }
 

@@ -62,10 +62,9 @@
 }
 
 .imgNamiGrass{
-    width: 100vw;
+    width: 99vw;
     justify-content: center;
- 
- }
+}
 
 .imagePeluche {
     border-radius: 3%;
@@ -90,10 +89,6 @@
 .imgHatchiko{
     width: 10vw;
 }
-
-
-
-
 
 #img85{
     width: 5vw;
