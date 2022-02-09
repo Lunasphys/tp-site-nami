@@ -73,3 +73,27 @@
     position:relative;
     left:2.2vw
 }
+
+
+@media (max-width: 820px) { 
+
+    .letterForYou{
+        width: 67vw;
+        left: 14vw;
+        top: 45vw;
+        position: absolute;
+        padding-bottom: 8vw;
+    }
+    
+    .LetterRight{
+        background-color: #FF8500;
+        width: 61vw;
+        height: 33vw;
+        z-index: 1;
+        position: absolute;
+        left:17vw;
+        top: 80vw;
+        border-radius: 1vw;
+    }
+
+}
