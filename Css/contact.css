@@ -1,3 +1,14 @@
+@font-face {
+    font-family:"KazimirBoldMenu";
+    src: url("../fontfamily/Kazimir.otf");
+}
+
+@font-face {
+    font-family:"KazimirMediumIt";
+    src: url("../fontfamily/KazimirMediumItalic.otf");
+}
+
+
 .background{
     background:url("../img/background1.jfif")center fixed ;
     height: 160% ;
@@ -9,15 +20,18 @@
     left: 14vw;
     top: 18vw;
     position: absolute;
-    margin-bottom:20vw
+    padding-bottom:8vw
 }
 
 .LetterRight{
     background-color:orange;
+    width: 30vw;
+    height: 16vw;
     z-index: 1;
     position: absolute;
-    left: 51vw;
-    border-radius:1vw
+    left: 53vw;
+    top:28vw;
+    border-radius:1vw;
 }
 
 .inLetter{
@@ -29,12 +43,33 @@
 .mail{
     display: flex;
     flex-direction: row;
-    position:relative
+    position:relative;
+    font-family:"KazimirBoldMenu";
+    top:3vw;
+    left:2vw
 }
 
 .post{
     display: flex;
     flex-direction: row;
-    position:relative
+    position:relative;
+    font-family:"KazimirBoldMenu";
+    top:4vw;
+    left:2vw
 }
 
+.textMail{
+    font-family:"KazimirMediumIt";
+    position:relative;
+    top:1.4vw;
+    left:1.9vw
+}
+.paracont1{
+    position:relative;
+    left:3.2vw
+}
+
+.paracont2{
+    position:relative;
+    left:2.2vw
+}

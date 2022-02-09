@@ -205,11 +205,12 @@
     width:2.4vw;
     height: 2.4vw;
     position: relative;
+    top:0.32vw
 }
 
 #letter{
     width: 2.4vw;
     height: 2.56vw;
     position: relative;
-    top:0.25vw
+    top:0.35vw
 }

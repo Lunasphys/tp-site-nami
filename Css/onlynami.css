@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family:"KazimirBoldMenu";
-    src: url("../fontfamily/Kazimir.otf");
+    font-family:"KievitPro";
+    src: url("../fontfamily/KievitPro-Regular.ttf");
 }
 
 .background{
@@ -131,12 +131,14 @@
 
 .paraOnBot1{
     display: flex;
-    font-size: 1.55vw;
+    font-size: 1.47vw;
     width: 14vw;
     margin: 0;
     position: relative;
     left:1.12vw;
     letter-spacing: 0.05vw;
+    font-family:"KievitPro";
+
 }
 
 .paraOnTop2{
@@ -148,18 +150,20 @@
     letter-spacing: 0.04vw;
     height:3vw;
     top:0.45vw;
+    left:0.7vw;
     font-family:"KazimirBoldMenu"
 }
 
 .paraOnBot2{
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1.42vw;
     width: 21vw;
     margin: 0;
     position: relative;
     top:0.6vw;
     left:1vw;
     letter-spacing: 0.02vw;
+    font-family:"KievitPro";
 }
 
 .paraOnTop3{
@@ -171,17 +175,19 @@
     letter-spacing: 0.05vw;
     height:3vw;
     top:0.65vw;
-    font-family:"KazimirBoldMenu"
+    font-family:"KazimirBoldMenu";
+
 }
 
 .paraOnBot3{
     display: flex;
-    font-size: 1.6vw;
+    font-size: 1.52vw;
     width: 14vw;
     margin: 0;
     position: relative;
     top:0.7vw;
     left:1vw;
     letter-spacing: 0.05vw;
+    font-family:"KievitPro";
 }
 

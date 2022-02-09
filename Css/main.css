@@ -3,9 +3,6 @@
     src: url("../fontfamily/Kazimir.otf");
 }
 
-@font-face {
-    font-family:""
-}
 
 body, #page {
     height:100%;
