@@ -1,3 +1,14 @@
+@font-face {
+    font-family:"KazimirItalic";
+    src: url("../fontfamily/Kazimir\ Italic.otf");
+}
+
+@font-face {
+    font-family:"KazimirLightItalic";
+    src: url("../fontfamily/KazimirLightItalic.otf");
+}
+
+
 .tomatogrp{
     display: flex;
     justify-content: row;
@@ -44,8 +55,9 @@
 .titlenami{
     margin-bottom: 5%;
     text-align: center;
-    background-color:#cd853f;
-    font-size: 1.7vw;
+    background-color:#C79A65;
+    font-size: 1.9vw;
+    height:2.8vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
@@ -174,15 +186,17 @@
 }
 .textpop1{
     padding: 3%;
-    font-size: 1vw;
+    font-size: 1.05vw;
     text-align:center;
-    font-family:"Kazimir Bold";
+    font-family:"KazimirItalic";
     border-radius: 3%;
     padding-top: 1.6vw;
+    padding-left:1vw;
+    padding-right:1vw
 }
 .textpop2{
     display: flex;
-    font-size: 1vw;
+    font-size: 0.98vw;
     flex-direction: column;
     border-radius: 3%;
 }
@@ -195,9 +209,10 @@
 .titlepresentation{
     margin-bottom: 5%;
     text-align: center;
-    background-color: #cd853f;
-    font-size: 1.7vw;
+    background-color: #C79A65;
+    font-size: 1.9vw;
     width: 22vw;
+    height:2.8vw;
     color: white;
     border-radius: 1vw;
     border: 1px solid gray;
@@ -219,6 +234,7 @@
 .secondcolumn{
     margin-top: 4%;
     margin-left: 6%;
+    font-family:"KazimirItalic";
 }
 
 li.blackheart:before{
@@ -236,11 +252,13 @@ li.blackheart:before{
 .title{
     font-size: 1vw;
     text-align: center;
-    padding-top:3%
+    padding-top:3%;
+    font-family:"KazimirLightItalic"
 }
 .title1{
     font-size: 1.5vw;
     text-align: center;
+    font-family:"KazimirLightItalic"
 }
 .dash{
     text-align: center;
@@ -266,8 +284,9 @@ li.blackheart:before{
 .titleHatchiko{
     margin-bottom: 5%;
     text-align: center;
-    background-color:#cd853f;
+    background-color:#C79A65;
     font-size: 1.7vw;
+    height:2.6vw;
     width: 22vw;
     color: white;
     border-radius: 1vw;
@@ -292,7 +311,7 @@ li.blackheart:before{
 }
 
 .firstText{
-    font-size: 0.85vw;
+    font-size: 0.93vw;
     padding-left: 0.2vw;
     text-decoration: underline;
 }
