@@ -1,7 +1,16 @@
+@font-face {
+  font-family:"KazimirItalic";
+  src: url("../fontfamily/Kazimir\ Italic.otf");
+}
+
+body{
+  font-family:"KazimirItalic";
+}
+
 .prestitle{
     margin-bottom: 1vw;
     text-align: center;
-    background-color:#cd853f;
+    background-color:#C79A65;
     font-size: 2.7vw;
     width: 56vw;
     color: white;
@@ -14,7 +23,8 @@
 .bigtxt{
     background-color: white;
     width: 56vw;
-    border-radius: 3%;
+    height: 31vw;
+    border-radius: 1vw;
     border: 1px solid gray;
     overflow:auto;
     font-size: 1vw;
